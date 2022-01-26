@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    position: relative;
+    display: flex;
+}
+.logo
+{
+    font-size: 30px;
+    font-weight: 500;
+    color:blueviolet;
+    padding-left: 30px;
+   
+    
+}
+span
+{
+    color:rgb(25, 97, 231);
+    letter-spacing: 3px;
+
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    padding-left: 600px;
+    
+}
+ul li
+{
+  margin-top: 10px;  
+  padding-left: 55px;
+}
+ul li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    color:rgb(25, 97, 231);
+}
+ul li a:hover
+{
+    color:blueviolet;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
